@@ -1,0 +1,221 @@
+/* Put your CSS styles here */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Add more CSS styles as needed */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav {
+    background-color: #495057;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+
+#about h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 28px;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.specialties ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.specialties li {
+    margin-bottom: 10px;
+}
+
+.specialty-box {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+ margin: 5px 19px 12px 18px;        
+    margin-bottom: 30px;
+    text-align: left;
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.specialty-box:hover {
+    transform: scale(1.05); /* Increase scale on hover */
+}
+
+.specialty-box h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 8px  8px ;
+}
+
+
+.project-card {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px 19px 12px 18px;        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 400px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+}
+.project-card:hover {
+    transform: scale(1.05); /* Increase scale on hover */
+}
+
+.project-card h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.project-card p {
+    margin-top: 10px;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-icons {
+    font-size: 24px;
+}
+
+.contact-icons a {
+    color: #343a40;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.contact-icons a:hover {
+    color: #ffc107;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    flex-direction: column;   /* Ensures elements stack vertically */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
